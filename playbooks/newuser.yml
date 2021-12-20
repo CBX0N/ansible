@@ -1,3 +1,4 @@
+---
 - name: Create local user
   win_user:
     name: '{{ item.name }}'
