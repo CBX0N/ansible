@@ -1,0 +1,6 @@
+---  
+- hosts: all
+  tasks:
+
+   - name: run an executable using win_command
+     win_command: whoami.exe
